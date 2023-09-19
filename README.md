@@ -1,3 +1,5 @@
 # CPE-322
 
-Hello :D
+## Assignment 0
+
+### Stuffs
