@@ -4,8 +4,8 @@
 
 ## Lesson 1
 
-![Alt Text](iot/lesson1/architecture.png)
+![Alt Text](https://github.com/kevinwlu/iot/blob/master/lesson1/architecture.png)
 
 ## Lesson 2
 
-![Alt Text](iot/lesson2/breadboard.jpg)
+![Alt Text](https://github.com/kevinwlu/iot/blob/master/lesson2/breadboard.jpg)
