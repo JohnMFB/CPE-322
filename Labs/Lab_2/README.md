@@ -2,6 +2,7 @@
 
 ![Alt Text](https://github.com/JohnMFB/CPE-322/blob/main/Assets/Lab_2.png)
 
+Following Assets Sourced From [https://github.com/kevinwlu/iot](https://github.com/kevinwlu/iot)
 ## Lesson 1
 
 ![Alt Text](https://github.com/kevinwlu/iot/blob/master/lesson1/architecture.png)
