@@ -20,7 +20,7 @@ Manual installation of ghdl and gtkwave within root dir not being seen by vscode
 
 <img width="417" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/83acd850-975f-4d17-a0f6-619911f80fd9">
 
-# My settings.json currently, learn to neatly configure this file
+## My settings.json currently, learn to neatly configure this file
 
 <details>
   <summary>CLICK HERE settings.json</summary>
@@ -48,8 +48,7 @@ Manual installation of ghdl and gtkwave within root dir not being seen by vscode
 <img width="602" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/96bb6062-d330-4f01-a84f-c8d15a39c80f">
 
 <img width="587" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/48a38446-67dd-4acf-8f23-91455b09df55">
-
-<img width="127" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/2223b81d-3991-4791-bb57-c074e6d684cf">
+- C:\msys64\usr\share\
 
 ## Success
 
