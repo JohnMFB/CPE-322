@@ -20,6 +20,7 @@ Manual installation of ghdl and gtkwave within root dir not being seen by vscode
 
 <img width="417" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/83acd850-975f-4d17-a0f6-619911f80fd9">
 
+# My settings.json currently, learn to neatly configure this file
 
 <details>
   <summary>CLICK HERE settings.json</summary>
@@ -30,10 +31,9 @@ Manual installation of ghdl and gtkwave within root dir not being seen by vscode
 
 </details>
 
-
-pacman -Syu
-pacman -S mingw-w64-x86_64-ghdl
-pacman -S mingw-w64-x86_64-gtkwave
+- pacman -Syu
+- pacman -S mingw-w64-x86_64-ghdl
+- pacman -S mingw-w64-x86_64-gtkwave
 
 ## Post Upgrade
 
@@ -55,3 +55,8 @@ pacman -S mingw-w64-x86_64-gtkwave
 
 <img width="594" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/8df7aa8e-c72a-4a03-b782-487668f72714">
 
+## Project Begin
+
+<img width="593" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/4a375f47-85b9-4b0a-92ae-62e9a1a8ee4f">
+
+<img width="594" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/5645adf3-892b-4de4-96cd-1ea1948055dd">
