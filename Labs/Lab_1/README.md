@@ -55,8 +55,18 @@ Manual installation of ghdl and gtkwave within root dir not being seen by vscode
 
 <img width="594" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/8df7aa8e-c72a-4a03-b782-487668f72714">
 
-## Project Begin
+## Project Begin + Half Adder
 
 <img width="593" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/4a375f47-85b9-4b0a-92ae-62e9a1a8ee4f">
 
 <img width="594" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/5645adf3-892b-4de4-96cd-1ea1948055dd">
+
+## Half Adder
+
+<img width="639" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/264b7364-301e-4c09-87ea-9fa1173aa634">
+
+## 4-to-1 Multiplexer
+
+<img width="594" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/d1eac8ee-754b-47b3-a73a-ff4342e0293b">
+
+<img width="769" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/192a4c35-c006-4f10-be05-de56b623eb25">
