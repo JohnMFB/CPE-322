@@ -20,98 +20,16 @@ Manual installation of ghdl and gtkwave within root dir not being seen by vscode
 
 <img width="417" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/83acd850-975f-4d17-a0f6-619911f80fd9">
 
-<details>
-  <summary>Click to see my settings.json</summary>
 
-{
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "C_Cpp.default.cppStandard": "gnu++14",
-  "C_Cpp.errorSquiggles": "enabled",
-  "C_Cpp.inactiveRegionOpacity": 0.5,
-  "C_Cpp.clang_format_fallbackStyle": "Google",
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "editor.defaultFormatter": "ms-vscode.cpptools",
-  "C_Cpp.clang_format_style": "Google",
-  "terminal.integrated.shell.windows": "C:\\msys64\\usr\\bin\\bash.exe", 
-  "terminal.integrated.env.windows": {
-    "MSYSTEM": "MINGW64",
-    "CHERE_INVOKING": "1",
-    "workspaceFolder": "${workspaceFolder}",
-    "MSVSCODE": "1"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "remote.SSH.showLoginTerminal": true,
-  "launch": {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "name": "(gdb) Launch",
-        "type": "cppdbg",
-        "request": "launch",
-        "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-        "args": [],
-        "stopAtEntry": false,
-        "cwd": "${workspaceFolder}",
-        "environment": [],
-        "externalConsole": false,
-        "MIMode": "gdb",
-        "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
-        "setupCommands": [
-          {
-            "description": "Enable pretty-printing for gdb",
-            "text": "-enable-pretty-printing",
-            "ignoreFailures": true
-          }
-        ],
-        "preLaunchTask": "C/C++: g++.exe build active file"
-      }
-    ]
-  },
-  "C_Cpp.default.browse.path": [
-    "C:\\msys64\\mingw64\\x86_64-w64-mingw32\\include"
-  ],
-  "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell"
-    },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
-    },
-    "Git Bash": {
-      "source": "Git Bash"
-    },
-    "bash (MSYS2)": {
-      "path": "C:\\msys64\\usr\\bin\\bash.exe",
-      "args": [
-        "--login",
-        "-i"
-      ]
-    }
-  },
-  "terminal.integrated.defaultProfile.windows": "bash (MSYS2)",
-  "redhat.telemetry.enabled": true,
-  "explorer.compactFolders": false,
-  "terminal.integrated.automationProfile.linux": {}
-}
+<details>
+  <summary>CLICK HERE settings.json</summary>
+
+<img width="426" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/66c1f8ea-5462-48e7-a464-0d02cc7336c2">
+
+<img width="396" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/8e47a440-4b97-4abe-87a3-8c836dabdd5f">
 
 </details>
+
 
 pacman -Syu
 pacman -S mingw-w64-x86_64-ghdl
