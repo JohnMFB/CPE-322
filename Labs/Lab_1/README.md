@@ -8,4 +8,7 @@ Installed
 - gtkwave-3.3.117.tar.gz
 - ghdl-MINGW32.zip V3
 
-this is a test
+## Setup
+
+<img width="596" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/50668e40-e879-430d-aa5f-9f377270720d">
+
