@@ -51,7 +51,7 @@ int main()
 }
 ```
 
-![GIF]("https://github.com/JohnMFB/CPE-322/blob/main/Assets/crying-cry.gif")
+![Alt Text](https://github.com/JohnMFB/CPE-322/blob/main/Assets/crying-cry.gif)
 
 | This | Is |
 | ----- | ----- |
