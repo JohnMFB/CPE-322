@@ -48,7 +48,9 @@ Manual installation of ghdl and gtkwave within root dir not being seen by vscode
 <img width="602" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/96bb6062-d330-4f01-a84f-c8d15a39c80f">
 
 <img width="587" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/48a38446-67dd-4acf-8f23-91455b09df55">
-- C:\msys64\usr\share\
+
+
+"- C:\msys64\usr\share\"
 
 ## Success
 
