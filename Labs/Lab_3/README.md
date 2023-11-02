@@ -19,7 +19,16 @@ Click to view 11/1 troubleshootings and findings ~7 hours spent
   ## Git issue summary
   - Background: Git commands (ssh key) has never worked on my computer, regardless of windows version or factory resets
   - Problem: 
-    - ![Alt text](The_Haunting_Error.png) 
+    - C:\Users\jjjay\OneDrive - stevens.edu\Semester 5 Courses\CPE 322\CPE-322>git pull
+    - The authenticity of host 'github.com (140.82.112.4)' can't be established.
+    - ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+    - This key is not known by any other names.
+    - Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    - Host key verification failed.
+    - fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
   - Problem Discovery:
   - Known:
     - Msys64 has its own home directory, the ssh key generated for msys64 only works when in /c/msys64/home/jjjay/.ssh
