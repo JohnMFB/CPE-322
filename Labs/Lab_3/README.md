@@ -44,14 +44,12 @@ and the repository exists.
 
     ## When generating RSA or ED25519 keys on my COMPUTER, msys64 ends in computer name "iPC" and cmd.exe ends in "jjjaylij@gmail.com"
 
-    ### ONLY cmd.exe on LAPTOP's "git config --global --list" will produce the following:
-    - user.name="JohnMFB"
-    - user.email=jjjaylij@gmail.com
-    - filter.lfs.clean=git-lfs clean -- %f
-    - filter.lfs.smudge=git-lfs smudge -- %f
-    - filter.lfs.process=git-lfs filter-process
-    - filter.lfs.required=true
+    ### Discrepancies found between git configs on Computer and Laptop
+    ## Computer Config
+    ![image](https://github.com/JohnMFB/CPE-322/assets/122575719/2b0067b0-0b7e-4474-a8d6-36d2ac8d9229)
+    ## Laptop Config
 
+    
     ##### All LAPTOP msys64, COMPUTER msys64 and cmd.exe will produce only user.name="JohnMFB" and user.email=jjjaylij@gmail.com, exception is only cmd.exe on LAPTOP that matches online examples for git list
     
     - Error occurs regardless of ssh keygen method used for msys64 on computer, fingerprint works fine through cmd.exe generated ssh key in real home directory
