@@ -34,13 +34,17 @@ and the repository exists.
     - Msys64 has its own home directory, the ssh key generated for msys64 only works when in /c/msys64/home/jjjay/.ssh
     - Git.bash automatically runs with msys64, cmd.exe runs exclusively through C:\Users\jjjay\.ssh
   
-    ## Discovery:
+    ## Discoveries:
+
+    #### >git clone through (Ctrl + Shift + P) integrated git in VSCode worked whilst all other methods failed before fixing git (On Computer)
+
+    #### When using VSCode's git integrated Source Control (Ctrl + Shift + G) it will give error, likely due to it utilizing C:\Users\jjjay\.ssh, now works once git keygen exists in cmd.exe environment as explained below (On Computer)
     
-    ### When generating RSA or ED25519 keys on my LAPTOP, msys64 and cmd environments ends in "jjjaylij@gmail.com" (laptop name is iLaptop)
+    ## When generating RSA or ED25519 keys on my LAPTOP, msys64 and cmd environments ends in "jjjaylij@gmail.com" (laptop name is iLaptop)
 
-    ### When generating RSA or ED25519 keys on my COMPUTER, msys64 ends in computer name "iPC" and cmd.exe ends in "jjjaylij@gmail.com"
+    ## When generating RSA or ED25519 keys on my COMPUTER, msys64 ends in computer name "iPC" and cmd.exe ends in "jjjaylij@gmail.com"
 
-    #### ONLY cmd.exe on LAPTOP's "git config --global --list" will produce the following:
+    ### ONLY cmd.exe on LAPTOP's "git config --global --list" will produce the following:
     - user.name="JohnMFB"
     - user.email=jjjaylij@gmail.com
     - filter.lfs.clean=git-lfs clean -- %f
