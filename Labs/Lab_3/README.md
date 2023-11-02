@@ -1,7 +1,7 @@
 # Lab 3
 <details>
 <summary>
-Click to view 11/1 troubleshootings and findings ~7 hours spent
+Click to view 11/1 troubleshootings and findings ~8 hours spent
 </summary>
 
 # Lab Failure
@@ -48,6 +48,7 @@ and the repository exists.
     ## Computer Config
     ![image](https://github.com/JohnMFB/CPE-322/assets/122575719/2b0067b0-0b7e-4474-a8d6-36d2ac8d9229)
     ## Laptop Config
+    <img width="511" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/3e75cd39-444b-4d9b-8a3f-f1285eb6f85a">
 
     
     ##### All LAPTOP msys64, COMPUTER msys64 and cmd.exe will produce only user.name="JohnMFB" and user.email=jjjaylij@gmail.com, exception is only cmd.exe on LAPTOP that matches online examples for git list
