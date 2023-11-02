@@ -40,6 +40,16 @@ and the repository exists.
 
     ### When generating RSA or ED25519 keys on my COMPUTER, msys64 ends in computer name "iPC" and cmd.exe ends in "jjjaylij@gmail.com"
 
+    #### ONLY cmd.exe on LAPTOP's "git config --global --list" will produce the following:
+    - user.name="JohnMFB"
+    - user.email=jjjaylij@gmail.com
+    - filter.lfs.clean=git-lfs clean -- %f
+    - filter.lfs.smudge=git-lfs smudge -- %f
+    - filter.lfs.process=git-lfs filter-process
+    - filter.lfs.required=true
+
+    ##### All LAPTOP msys64, COMPUTER msys64 and cmd.exe will produce only user.name="JohnMFB" and user.email=jjjaylij@gmail.com, exception is only cmd.exe on LAPTOP that matches online examples for git list
+    
     - Error occurs regardless of ssh keygen method used for msys64 on computer, fingerprint works fine through cmd.exe generated ssh key in real home directory
     - Wanted to avoid copying id_rsa.pub from laptop onto pc, copying cmd.exe generated key to the msys64 ssh file location allows git to work for both environments, process repeated for laptop (working msys64 generated key copied onto original C:/ ssh key location for cmd.exe and is successful)
     - git now work on both computer and laptop allowing me to seamlessly work on both, github repo clone is located in my onedrive folder
