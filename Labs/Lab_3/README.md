@@ -52,6 +52,12 @@ Click to view 11/1 troubleshootings and findings ~7 hours spent
 
 ## Remember to overwrite updated known_hosts folder from active environment to other .ssh folder when cloning new github repos that add known_host fingerprints to avoid errors
 
+## When copying ssh generated keys to different environment homes, "git config --global --list" will not transfer, remember to
+
+### git config --global user.name "your username"
+
+### git config --global user.email "your email"
+
 # Original Lab Start from 11/1 morning
 
 ## VSCode Changes
