@@ -1,6 +1,58 @@
 # Lab 3
+<details>
+<summary>
+Click to view 11/1 troubleshootings and findings ~7 hours spent
+</summary>
 
-![image](https://github.com/JohnMFB/CPE-322/assets/122575719/49b7795e-f576-4907-aa8d-d38eecdf0a6a)
+# Lab Failure
+
+## Summary Of Failure Documentation 11/1
+
+  - Python Anaconda Integration into VSCode setup on my laptop
+  - All required packages installed
+  - Only jdcal worked, installed through default channel
+  - Added conda-forge channel path, jdcal stopped working once supercede by forge jdcal
+  - Tried multiple envs for different python versions, always "package name" module not found error
+  - Future created environments automatically used forge channel when downloading packages, 
+    - Hypothesis: jdcal will work once way to remove forge channel is found and default jdcal is used
+  
+  ## Git issue summary
+  - Background: Git commands (ssh key) has never worked on my computer, regardless of windows version or factory resets
+  - Problem: 
+    - ![Alt text](The_Haunting_Error.png) 
+  - Problem Discovery:
+  - Known:
+    - Msys64 has its own home directory, the ssh key generated for msys64 only works when in /c/msys64/home/jjjay/.ssh
+    - Git.bash automatically runs with msys64, cmd.exe runs exclusively through C:\Users\jjjay\.ssh
+  
+    ## Discovery:
+    
+    ### When generating RSA or ED25519 keys on my LAPTOP, msys64 and cmd environments ends in "jjjaylij@gmail.com" (laptop name is iLaptop)
+
+    ### When generating RSA or ED25519 keys on my COMPUTER, msys64 ends in computer name "iPC" and cmd.exe ends in "jjjaylij@gmail.com"
+
+    - Error occurs regardless of ssh keygen method used for msys64 on computer, fingerprint works fine through cmd.exe generated ssh key in real home directory
+    - Wanted to avoid copying id_rsa.pub from laptop onto pc, copying cmd.exe generated key to the msys64 ssh file location allows git to work for both environments, process repeated for laptop (working msys64 generated key copied onto original C:/ ssh key location for cmd.exe and is successful)
+    - git now work on both computer and laptop allowing me to seamlessly work on both, github repo clone is located in my onedrive folder
+      - teaching myself how ssh works better, thinking outside the box to find obscure error while doubting my doing correct ssh-key generation steps
+
+    #### Writers Note
+
+      - I have this problem where I would study material too closely and miss material I get tested on and haven't studied, little tiny steps I miss, its difficult for me to be prepared for the big picture or outside the box
+      - This is not a problem I would have solved by understanding git setup steps or documentation or tutorials, I would have never guessed my Computer's Msys64 decided to give me a broken ssh-key, as far as my findings go
+      - I have spent multiple semesters randomly trying to figure out how to get git to work on my computer, it gives me errors that nothing online tells me how to fix without regurgitating the same aggravating steps that have never worked
+
+# Notes for future troubleshooting: 
+
+## Only LAPTOP msys64 ssh generates demo, .bash_history .bash_logout, .bashrc, .gitconfig, .lesshst, .profile files. 
+
+## Only PC windows home folder generates known_hosts files within "C:\Users\jjjay\ .ssh" regardless of environment used to clone (space because markdown formatting error) 
+
+## Only LAPTOP msys64 home folder generates known_hosts file within "C:\msys64\home\jjjay\ .ssh
+
+## Remember to overwrite updated known_hosts folder from active environment to other .ssh folder when cloning new github repos that add known_host fingerprints to avoid errors
+
+# Original Lab Start from 11/1 morning
 
 ## VSCode Changes
 - Downloaded VSCode Plugins
@@ -133,3 +185,5 @@
 ## Fail
 
 <img width="594" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/f7b954f0-ca41-4345-bfdf-00118001988e">
+
+</details>
