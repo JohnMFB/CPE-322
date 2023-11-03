@@ -58,3 +58,8 @@ int main()
 | A | Table |
 | Isn't | That |
 | Cool | ? |
+
+Besides the gif [^1] should be [^2] extra.
+
+[^1]: This
+[^2]: Another
