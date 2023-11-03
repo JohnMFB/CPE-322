@@ -136,3 +136,69 @@
 <img width="605" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/afa96313-1284-4a49-b784-a5c7be2645d4">
 
 ## Django Rest
+
+<img width="464" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/c4642db4-f5aa-4630-a8f5-4ac4251920ca">
+
+## python manage.py startapp myapp
+
+<img width="468" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/42f06b5c-8b99-45b1-969a-1207646c6e31">
+
+### settings.py changes
+
+<img width="452" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/a7e59b15-87fc-4e25-b015-0c44509044f5">
+
+### url.py cp
+
+<img width="464" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/53fc51c3-baca-4e8c-8ca4-871ee85908ec">
+
+### cp admin.py, models.py, views.py, serializers.py copied
+
+<img width="590" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/6418e867-ba24-4634-9985-f35fe1541146">
+
+### mkdir
+
+<img width="588" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/03278401-5df1-4dce-84ef-041d5f84339f">
+
+### cp favicon.ico, *css and *js
+
+<img width="466" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/494a626b-62a7-4370-b49f-0d7dbab7ac7e">
+
+### python manage.py runserver
+
+<img width="452" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/2598cf24-96a5-45ff-a2f8-f18580ced068">
+
+### Merging and creating super user
+
+<img width="465" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/db04ac54-1703-4add-8c66-3f0130ab589c">
+
+### python manage.py runserver
+
+<img width="463" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/ac243f1d-a2b3-4596-9a79-6e6df80837f0">
+
+<img width="464" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/17eec365-ff99-412e-a94f-ac381160c07a">
+
+<img width="370" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/69706625-a827-48bb-aa60-bf2e96aaa205">
+
+<img width="547" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/ef9e2b3c-508a-47cd-b9dc-f29f4893a30e">
+
+<img width="547" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/fd31c5b0-a0c1-4d31-8590-748bf5565d71">
+
+<img width="549" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/5602e7e6-47e3-49cc-89eb-9aa64e478d61">
+
+#### Installing winpty due to error running python controller.py
+
+<img width="467" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/8fe8cf88-37ff-4b88-b7cb-282318cbc413">
+
+#### Winprt does not help run command without extra unnecessary steps
+
+#### python controller.py and python manage.py runserver 0.0.0.0:8000 not working
+
+#### conda install flask
+
+<img width="468" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/fefbec26-69d6-4c6a-a845-e807fb9af4aa">
+
+## Lab Fully Completed
+
+<img width="464" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/a09d92ea-1542-4bdb-bead-b5e1704ee381">
+
+<img width="611" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/98006515-5b03-4cf8-b27b-f189222ef9ed">
