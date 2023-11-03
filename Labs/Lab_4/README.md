@@ -105,3 +105,34 @@
 
 <img width="465" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/778a601a-e446-4a40-b491-0ded3d6c8c77">
  
+#### ALLOWED_HOSTS = ['*'] was missing astricks fix
+
+<img width="204" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/1659df33-4d72-4d46-9698-a3acf3d349e2">
+
+#### THAT FIXED IT
+
+<img width="464" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/bed61968-02f3-4705-b70c-0b890f8dda74">
+
+- Use Ctrl + C to exit, BREAK key on my laptop is only available through Ctrl + Shift + B
+
+<img width="462" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/c2d7872f-52c8-4436-b334-5b3f5e548f71">
+
+#### Migration and Super User Created
+
+<img width="457" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/da52a307-5524-489d-8d93-841499eb4ad6">
+
+#### Website data added
+
+<img width="379" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/826fcae7-bdc8-4bfd-8417-0e0205ea682f">
+
+<img width="392" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/143362a3-da9e-4a55-b5d5-6922b4ea0679">
+
+<img width="457" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/028fd39c-84d0-4711-9beb-d30e58be72d4">
+
+<img width="457" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/03ae14b3-703a-4531-ba49-4d7cfbfe94c5">
+
+#### Website General without Admin
+
+<img width="605" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/afa96313-1284-4a49-b784-a5c7be2645d4">
+
+## Django Rest
