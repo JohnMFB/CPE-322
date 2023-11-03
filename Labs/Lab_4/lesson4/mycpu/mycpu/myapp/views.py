@@ -25,19 +25,19 @@ def home(request):
     lon = locData.longitude
 
     dtstate = '2021'
-    r = requests.get('http://127.0.0.1:8000/dt/1/', auth=('JohnMFB', 'cpe322lab4'))
+    r = requests.get('http://127.0.0.1:8000/dt/1/', auth=('admin', 'admin'))
     result = r.text
     output = json.loads(result)
     dtstate = output['name']
 
     memstate = '20'
-    r = requests.get('http://127.0.0.1:8000/mem/1/', auth=('JohnMFB', 'cpe322lab4'))
+    r = requests.get('http://127.0.0.1:8000/mem/1/', auth=('admin', 'admin'))
     result = r.text
     output = json.loads(result)
     memstate = output['name']
 
     cpustate = '20'
-    r = requests.get('http://127.0.0.1:8000/cpu/1/', auth=('JohnMFB', 'cpe322lab4'))
+    r = requests.get('http://127.0.0.1:8000/cpu/1/', auth=('admin', 'admin'))
     result = r.text
     output = json.loads(result)
     cpustate = output['name']
