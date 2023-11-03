@@ -38,3 +38,47 @@
 
 <img width="463" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/42afcb83-90d6-47d8-9b77-e0a5310464dd">
 
+#### conda list | already contains urllib3
+
+<img width="465" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/80703982-f2fd-46d1-92f6-79e1f7ab3c35">
+
+## cd stevens only works after django startproject
+
+<img width="460" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/5edd74df-634e-42b3-bfce-f7a473d2b2a7">
+
+## Django app started 'myapp'
+
+<img width="463" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/eb349e7f-e566-4e58-806f-405ce29388e8">
+
+## settings.txt explaining how to change settings.py
+
+<img width="465" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/740f6113-8018-47e5-96a2-2d9924c81893">
+
+### Navigate to settings.py and make 'myapp', and ALLOWED_HOSTS = [*] changes
+
+<img width="462" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/13227122-f931-488d-a713-b3753fa512cc">
+
+<img width="467" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/c7ecaa9a-1cf0-425a-8dee-1141ae93f70a">
+
+#### Changes successfully saved
+
+<img width="464" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/d45facc0-e7cc-48a0-bb74-893ca9ce9503">
+
+#### My url.py is located within 'stevens/stevens/stevens' whereas instructions located in 'stevens/stevens/' adjusting accordingly
+
+<img width="454" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/d5ba17f1-7c0e-4e1d-9e86-9034631a654f">
+<img width="528" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/0c5e9acf-4adc-46a6-99a7-66c77050165f">
+
+#### Copied urls.py from lesson4/stevens folder to stevens folder containing urls.py, wsgi.py, settings.py, __pycache__ py, etc., my case is corresponding folder lesson4/stevens/stevens/stevens instead of just lesson4/stevens/stevens
+
+<img width="466" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/7b90e215-e829-48be-b069-0d507ab84bce">
+
+#### copy respect admin.py, models.py, and views.py files to stevens/stevens/myapp 
+
+<img width="462" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/2bd91cda-30f8-48a6-8746-c2a94dbd49b7">
+
+#### path for index.html created
+
+<img width="461" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/faba87c1-a2c3-466b-937a-2f19247e887d">
+
+
