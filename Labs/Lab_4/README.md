@@ -99,4 +99,9 @@
 
 <img width="462" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/4a3ba5e5-c54d-41fb-9209-5036f8a94ec9">
 
+#### favicon.ico, *css and *js copied into lesson4/stevens/stevens/myapp/statics
 
+<img width="463" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/b01075ca-4b8a-45cb-a8b3-031c47020a33">
+
+<img width="465" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/778a601a-e446-4a40-b491-0ded3d6c8c77">
+ 
