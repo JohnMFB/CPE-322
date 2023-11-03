@@ -81,4 +81,22 @@
 
 <img width="461" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/faba87c1-a2c3-466b-937a-2f19247e887d">
 
+#### git config pull.rebase false # merge | merge Lab4 readme online and Lab4 local changes
+
+<details> <summary> Click here to see all github changes </summary>
+<img width="549" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/0098987f-5546-4539-bc2d-30ac43e78ef5">
+
+<img width="1092" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/aaa2e25e-83fa-4615-96b0-881274e9b7df">
+
+<img width="559" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/27decf74-2256-40e0-9813-cc6f5a57aea8">
+
+<img width="547" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/0b9cb1e0-5446-4d8f-9760-0f7da9a0ccc2">
+</details>
+
+#### google cloud api key added to index.html
+
+#### python manage.py runserver fail
+
+<img width="462" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/4a3ba5e5-c54d-41fb-9209-5036f8a94ec9">
+
 
