@@ -215,3 +215,91 @@ and the repository exists.
 <img width="594" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/f7b954f0-ca41-4345-bfdf-00118001988e">
 
 </details>
+
+# Lab 3
+
+<img width="597" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/7f6a46a4-76b4-4952-8765-34926d7bc5b7">
+
+## Lab Setup | Jdcal, Astral, Geopy Pytz Conda Packages
+
+<img width="381" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/05958317-2945-4e38-9746-841b1584fea6">
+
+<img width="388" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/0ec0e5b7-b7ec-4514-a2bb-5fb80006fc2e">
+
+### Fresh Conda Env Install | Latest Python
+
+<img width="388" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/02f2a59a-353a-4fcb-94aa-e32b896cb10e">
+
+<img width="389" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/3fc2d56d-6380-41bb-982c-566b6568aa44">
+
+<img width="519" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/6cd476fd-db20-47a8-af47-3ec37071ce70">
+
+### Note: Deleted conda-forge channel where JDCAL was found to stop functioning
+
+<img width="391" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/2a756728-0766-4d42-abf4-5f89d13a2253">
+
+### Installing JDCAL without Conda-Forge Community Channel
+
+<img width="512" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/e19b5306-14f5-447f-9bdc-907639b03c9a">
+
+### Update nested git repos
+
+<img width="586" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/90409bbc-7c86-4a7a-88f3-7bb72de7cc71">
+
+### Check if JDCAL functional
+#### Fail
+
+<img width="592" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/1db7e76c-e8ac-4e7c-bdc2-eb354984e4e8">
+
+#### Re-Activate and Verify JDCAL Present
+
+<img width="593" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/a5cb83b4-77db-44d7-822e-cd625242b21d">
+
+#### "which python3" shows msys64 python3 library is being used regardless of activated conda env. To use jdcal in this situation would require installation through pacman. Need to use packages/python installed in anaconda path.
+
+<img width="637" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/77088b4b-d6fb-4028-aca7-c003b6ef392a">
+
+<img width="636" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/cd0279d5-d8f7-4c54-b84c-7f19273c8c0b">
+
+<img width="186" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/0f190280-9aa3-4509-a318-34e188371de1">
+
+#### "which python" shows correct path
+
+<img width="592" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/98715680-1d2d-4f95-b85a-196508eec281">
+
+#### conda-forge required for python3 installation on anaconda
+
+- Adding Conda-Forge Channel
+- Installing Python3 Jdcal Astral Geopy and Pytz
+
+# Fix Found
+
+#### ChatGPT never helped here. Python3 is not found as a Conda-Forge package because it is exclusively for non-python environments to run python version 3. A python environment is not necessary to run python3, msys64 can run it fine and if installing jdcal through pacman in theory should also be a working alternative. By running python3, regardless of activated environment it will never use packages within the python (version 3 environment) but the msys64 python3 (C++ oriented environment)
+
+## As Seen Below
+
+<img width="590" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/23d3255f-50da-4941-a5c9-f3ac457faf1a">
+
+## Astral Geopy Pytz Installed
+
+<img width="592" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/87a0d1e2-61c7-497a-a0e1-6f3ed976944a">
+
+# Lab Start
+
+<img width="591" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/53852277-ce93-4ceb-af4b-888719bf8ea1">
+
+<img width="589" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/701a0ca9-5abe-44fc-80eb-68caee3fedd4">
+
+##### Psutil package installed for 'python cpu.py'
+
+<img width="594" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/32dcc044-fbbd-4735-ac9a-a2f9978b8414">
+
+<img width="592" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/e5122bc0-5e90-4e8e-a716-58f7ef142873">
+
+# Lab Continue with 'python cpu.py'
+
+<img width="593" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/8854c64a-8445-4ea9-8751-76ad6ce5f6c6">
+
+# Lab Complete
+
+![Funny GIF](https://media.tenor.com/Iccl_wfwIdwAAAAC/despicable-me-minions.gif)
