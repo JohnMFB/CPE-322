@@ -65,3 +65,25 @@
 <img width="589" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/6ea0bf31-8515-492d-a9d1-8da9f1c831c4">
 
 ### Will delete activate_conda_env.sh, finding alternative path to utilize one conda for both cmd and Ubuntu
+
+### wget https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
+- Derived from following Anaconda Download Link
+
+<img width="242" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/6bf59432-a96b-446d-963d-07d550ee1980">
+
+<img width="1127" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/04185957-dd38-4b2b-bdeb-3349cb91c6ab">
+
+### Bashed installation
+
+<img width="1134" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/e0e60c85-7b99-4315-ab41-b37fd6f99d9b">
+
+<img width="472" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/74088a07-07fa-4a6a-9c3b-d71bcd1dbca2">
+
+### Anaconda installation successful
+
+<img width="534" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/184c3ac6-99bb-4622-8f17-c9387a647feb">
+
+Run automatically with Ctrl + Shift + P VSCode select interpretor
+- Script may be necessary
+- Do not want Conda to be fully automatic
+- Conda should only pre-startup when specified through VSCode
