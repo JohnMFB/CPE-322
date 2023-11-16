@@ -26,4 +26,10 @@
 ![image](https://github.com/JohnMFB/CPE-322/assets/122575719/b89ce844-e8eb-4186-a41e-d37b60b0d4a6)
 ![image](https://github.com/JohnMFB/CPE-322/assets/122575719/0f1533bd-483d-4850-8e69-53189896e189)
 ![image](https://github.com/JohnMFB/CPE-322/assets/122575719/7e69dd5c-de2e-47ef-be8a-30858dc1a1d4)
-
+## VSCode Ubuntu Setup
+![image](https://github.com/JohnMFB/CPE-322/assets/122575719/1fb2277b-e969-4d08-b3bf-ed466c6cea23)
+## VSCode Ubuntu Git Setup
+![image](https://github.com/JohnMFB/CPE-322/assets/122575719/2a3ffe4b-6a16-49ac-b61f-0182cf4cdd66)
+![image](https://github.com/JohnMFB/CPE-322/assets/122575719/ae15f243-1371-4ee2-99d1-01195af825f8)
+### Cannot Copy PC's RSA Key, Generating ed25519 (preferrence) and naming keygen as Ubuntu
+- Ubuntu environment should be shared by both laptop and PC regardless once that is set up.
