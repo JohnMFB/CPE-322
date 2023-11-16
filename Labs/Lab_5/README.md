@@ -33,3 +33,7 @@
 ![image](https://github.com/JohnMFB/CPE-322/assets/122575719/ae15f243-1371-4ee2-99d1-01195af825f8)
 ### Cannot Copy PC's RSA Key, Generating ed25519 (preferrence) and naming keygen as Ubuntu
 - Ubuntu environment should be shared by both laptop and PC regardless once that is set up.
+### Git setup successful, will now set up process onto Laptop and sync Ubuntu accounts for WSL2
+![image](https://github.com/JohnMFB/CPE-322/assets/122575719/56d41f75-151b-4252-905e-7877e2628a8e)
+- Also resetting all generated keys to ed25519, and removing msys2 as well as gitbash relationship to starting with msys2
+  
