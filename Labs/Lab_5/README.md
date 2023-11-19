@@ -87,3 +87,47 @@ Run automatically with Ctrl + Shift + P VSCode select interpretor
 - Script may be necessary
 - Do not want Conda to be fully automatic
 - Conda should only pre-startup when specified through VSCode
+### Will do auto conda later
+- myenv environment created
+#### mosquitto_sub -h localhost -v -t "\$SYS/#"
+
+<img width="457" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/54a73ca5-95de-410a-b66c-a9f18aeb9c3b">
+
+#### service mosquitto status
+
+<img width="452" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/5282fab9-5df8-45f5-8f14-c58aaa63d183">
+
+#### netstat -tln (netstat installed and working)
+
+<img width="465" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/1a04129b-d796-484a-8ffa-9ce0f2f106da">
+
+#### Side by Side Terminals
+
+<img width="588" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/ed37ac4c-7e13-4db4-bf86-a983e22fa277">
+
+#### conda install paho-mqtt (conda-forge added to ubuntu conda)
+
+<img width="590" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/0768d391-d61f-428d-aba6-cbb475eaccf9">
+
+#### git clone and python client.py
+
+<img width="589" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/7500337d-cb86-48bc-9213-93381332dd4c">
+
+#### python sub.py and python pub.py working
+
+<img width="593" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/006804b5-67d7-484e-811c-176c937b18f1">
+
+#### python sub and pub multiply.py ran fine
+
+<img width="593" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/b7fc871a-463a-403e-b8e8-6ade92c0bc8f">
+
+#### subcpu.py and pubcpu.py needs psutil conda plugn
+
+<img width="593" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/9e70689c-fdcb-4ce9-be88-ebb3c8e0b096">
+
+<img width="594" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/98ab6fd7-f84f-4e06-8cc7-e22d67c6fc6e">
+
+## Lab Complete!
+
+![Funny](https://www.system-concepts.com/wp-content/uploads/2020/02/excited-minions-gif-360x163.gif)
+
