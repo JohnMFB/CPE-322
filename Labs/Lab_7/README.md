@@ -27,3 +27,12 @@
 <img width="597" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/aaf942ad-2327-42d0-b9aa-d6b110cb3b49">
 
 ### Lab 7B Start
+
+<img width="593" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/e93cdd28-9498-4d56-bcba-9c257a196970">
+
+<img width="604" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/85e0e5c1-ab86-4003-998c-05c4b8cc04fc">
+
+#### My sheet1 was renamed to cpudata as well
+
+<img width="585" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/0f1cae06-b405-4175-90f9-5ae408509ab0">
+
