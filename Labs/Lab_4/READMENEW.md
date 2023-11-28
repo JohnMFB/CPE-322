@@ -66,3 +66,7 @@
 <img width="1212" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/773fcbc5-37fd-41c4-a195-85ad046d5a0d">
 
 - not working on new url, says invalid user/pass even when inputted in code and no account exists for mycpu, creating account does not fix
+
+## Lab 4C Complete Again
+
+<img width="1236" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/3503db4c-6c0e-4776-9d19-97d82df41993">
