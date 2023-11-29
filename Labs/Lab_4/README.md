@@ -67,6 +67,35 @@
 
 - not working on new url, says invalid user/pass even when inputted in code and no account exists for mycpu, creating account does not fix
 
+#### 11/29/2023 Retry
+- Error Message
+
+<img width="243" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/e398315e-a3c9-4f70-a73f-36949376b227">
+
+## WORKING FIX
+- Changing = output['name'] to = output.get('name')
+
+## FIX
+
+<img width="603" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/0d553d23-5384-4842-81a4-b279fc144f6e">
+
+- Resaving 2022, 20, 20 into /7/ instance
+- Fixing dstate = '2022' to see correct instance
+
+<img width="342" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/f013b01d-834d-4f6f-890f-860c3578eef8">
+
+- Changed views.py to reflect /7/ instance data, controller.py not updating values
+
+<img width="1013" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/24e73b02-7d33-4fc6-a542-d612cddf8f12">
+
+- Changed controller.py to update /7/ values
+
+<img width="352" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/4f29c73b-6114-47e4-88b7-4098dbd783c8">
+
+## Lab Fully Working
+
+<img width="1245" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/146b9787-cf43-421f-a85f-9073b3347ff9">
+
 ## Lab 4C Complete Again
 
 <img width="1236" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/3503db4c-6c0e-4776-9d19-97d82df41993">
