@@ -14,13 +14,13 @@ def runController():
     setCpuState(cpu)
 def setDtState(val):
     values = {'name': val}
-    r = requests.put('http://127.0.0.1:8000/dt/1/', data=values, auth=('JohnMFB', 'cpe322lab4'))
+    r = requests.put('http://127.0.0.1:8000/dt/7/', data=values, auth=('JohnMFB', 'cpe322lab4'))
 def setMemState(val):
     values = {'name': val}
-    r = requests.put('http://127.0.0.1:8000/mem/1/', data=values, auth=('JohnMFB', 'cpe322lab4'))
+    r = requests.put('http://127.0.0.1:8000/mem/7/', data=values, auth=('JohnMFB', 'cpe322lab4'))
 def setCpuState(val):
     values = {'name': val}
-    r = requests.put('http://127.0.0.1:8000/cpu/1/', data=values, auth=('JohnMFB', 'cpe322lab4'))
+    r = requests.put('http://127.0.0.1:8000/cpu/7/', data=values, auth=('JohnMFB', 'cpe322lab4'))
 while True:
     try:
         memory = psutil.virtual_memory()

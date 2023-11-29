@@ -24,23 +24,23 @@ def home(request):
     lat = locData.latitude
     lon = locData.longitude
 
-    dtstate = '2021'
-    r = requests.get('http://127.0.0.1:8000/dt/1/', auth=('JohnMFB', 'cpe322lab4'))
+    dtstate = '2022'
+    r = requests.get('http://127.0.0.1:8000/dt/7/', auth=('JohnMFB', 'cpe322lab4'))
     result = r.text
     output = json.loads(result)
-    dtstate = output['name']
+    dtstate = output.get('name')
 
     memstate = '20'
-    r = requests.get('http://127.0.0.1:8000/mem/1/', auth=('JohnMFB', 'cpe322lab4'))
+    r = requests.get('http://127.0.0.1:8000/mem/7/', auth=('JohnMFB', 'cpe322lab4'))
     result = r.text
     output = json.loads(result)
-    memstate = output['name']
+    memstate = output.get('name')
 
     cpustate = '20'
-    r = requests.get('http://127.0.0.1:8000/cpu/1/', auth=('JohnMFB', 'cpe322lab4'))
+    r = requests.get('http://127.0.0.1:8000/cpu/7/', auth=('JohnMFB', 'cpe322lab4'))
     result = r.text
     output = json.loads(result)
-    cpustate = output['name']
+    cpustate = output.get('name')
 
     return render(request, 'myapp/index.html',
     {'lat': lat, 'lon': lon, 'dtstate':dtstate, 'memstate':memstate, 'cpustate':cpustate})
