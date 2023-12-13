@@ -7,7 +7,7 @@ import psutil
 import subprocess
 #from system_info import get_temperature
 from oauth2client.service_account import ServiceAccountCredentials
-GDOCS_OAUTH_JSON       = 'cpudata-cpe322-b0a320ad1e2d.json'
+GDOCS_OAUTH_JSON       = 'cpudata-cpe322-515f548bd953.json'
 GDOCS_SPREADSHEET_NAME = 'cpudata'
 FREQUENCY_SECONDS      = 10
 def login_open_sheet(oauth_key_file, spreadsheet):
