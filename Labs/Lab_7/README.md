@@ -36,3 +36,16 @@
 
 <img width="585" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/0f1cae06-b405-4175-90f9-5ae408509ab0">
 
+#### Restarting and recreating API keys and service accounts, python cpu_spreadsheet.py only worked for personal email's excel sheet NOT stevens email's excel sheet. It cannot handle the extra step involved with using an out of organization's excel sheet.
+
+<img width="1238" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/67d7f6e3-42d5-4b4d-9fa7-83e518a167a4">
+
+#### Stevens email copy remains empty
+
+<img width="599" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/b8cd76e8-137c-4a59-bfb9-1994bb7e98c5">
+
+#### Removing access to personal email copy and now gives append error
+
+<img width="1245" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/a945dde0-51ff-423b-a42e-1a3af27fdaa1">
+
+#### Lab complete though will work on figuring out why it only works on my personal email's Excel sheet.
