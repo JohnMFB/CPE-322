@@ -2,12 +2,12 @@ import matplotlib.pyplot as plt
 from pandas import *
 from scipy import stats
 
-data = read_csv('rpidata1.csv')
+data = read_csv('cpudata1.csv')
 x = data['CPU Usage %']
-y = data['Temperature C']
+y = data['Memory Available GB']
 
 # Time series
-plt.plot(y, 'r', lw=2, label='Temperature C')
+plt.plot(y, 'r', lw=2, label='Memory Available GB')
 plt.plot(x, 'b', lw=2, label='CPU Usage %')
 plt.xticks([209,452,703,957],['21:00','21:30','22:00','22:30'])
 plt.xlabel('Time')
@@ -26,7 +26,7 @@ plt.title('Iotu 2017-04-28')
 plt.figure()
 num_bins = 30
 n, bins, patches = plt.hist(y, num_bins, density=1, facecolor='red', alpha=0.5)
-plt.xlabel('Temperature C')
+plt.xlabel('Memory Available GB')
 plt.ylabel('Probability')
 plt.title('Iotu 2017-04-28')
 
@@ -39,14 +39,14 @@ plt.title('Iotu 2017-04-28')
 # Vertical box plot of temperature
 plt.figure()
 plt.boxplot(y, 0, '+')
-plt.ylabel('Temperature C')
+plt.ylabel('Memory Available GB')
 plt.title('Iotu 2017-04-28')
 
 # Scatter diagram with a linear regression line
 plt.figure()
 slope, intercept, r_value, p_value, std_err = stats.linregress(x, y)
 plt.xlabel('CPU Usage %')
-plt.ylabel('Temperature C')
+plt.ylabel('Memory Available GB')
 plt.plot(x, y, 'bo')
 l = [slope * i + intercept for i in x]
 plt.plot(x, l, 'r', lw=2)

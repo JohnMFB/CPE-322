@@ -34,7 +34,7 @@ plt.grid(True)
 # symmetric log
 plt.subplot(223)
 plt.plot(x, y - y.mean())
-plt.yscale('symlog', linthreshy=0.01)
+plt.yscale('symlog')
 plt.title('symlog')
 plt.grid(True)
 
