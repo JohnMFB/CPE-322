@@ -66,3 +66,5 @@ $ docker run -it tensorflow/tensorflow bash
 
 <img width="854" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/b65c6a87-acad-4267-b0bc-1c44f24704dc">
 
+<img width="89" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/cc8f2eaa-a954-4b2e-b0bd-2cb2f4b469ef">
+
