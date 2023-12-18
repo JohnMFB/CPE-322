@@ -169,6 +169,6 @@ Same runs as earlier
 
 *Note: Changes needed to be made to change Memory Available GB from Temperature C as well as rpidata to cpudata for correct csv file*
 
-<img width="1174" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/a292e5b7-3f6e-4df4-82df-1c5f6692d374">
+<img width="1267" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/5c7ccc42-9c10-41a5-a55c-5f2f750c15c3">
 
-<img width="494" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/534b4b7b-7c93-4672-a7fe-ca0f9c5b3b8b">
+<img width="477" alt="image" src="https://github.com/JohnMFB/CPE-322/assets/122575719/51853e2e-f645-4d16-8834-5fba0068b821">
