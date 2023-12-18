@@ -12,7 +12,7 @@ plt.plot(x, 'b', lw=2, label='CPU Usage %')
 plt.xticks([209,452,703,957],['21:00','21:30','22:00','22:30'])
 plt.xlabel('Time')
 plt.legend(loc='lower center')
-plt.title('Iotu 2017-04-28')
+plt.title('John Li 2023-11-13')
 
 # Histogram of CPU usage
 plt.figure()
@@ -20,7 +20,7 @@ num_bins = 35
 n, bins, patches = plt.hist(x, num_bins, density=1, facecolor='blue', alpha=0.5)
 plt.xlabel('CPU Usage %')
 plt.ylabel('Probability')
-plt.title('Iotu 2017-04-28')
+plt.title('John Li 2023-11-13')
 
 # Histogram of temperature
 plt.figure()
@@ -28,19 +28,19 @@ num_bins = 30
 n, bins, patches = plt.hist(y, num_bins, density=1, facecolor='red', alpha=0.5)
 plt.xlabel('Memory Available GB')
 plt.ylabel('Probability')
-plt.title('Iotu 2017-04-28')
+plt.title('John Li 2023-11-13')
 
 # Horizontal box plot of CPU usage
 plt.figure()
 plt.boxplot(x, 0, '+', 0)
 plt.xlabel('CPU Usage %')
-plt.title('Iotu 2017-04-28')
+plt.title('John Li 2023-11-13')
 
 # Vertical box plot of temperature
 plt.figure()
 plt.boxplot(y, 0, '+')
 plt.ylabel('Memory Available GB')
-plt.title('Iotu 2017-04-28')
+plt.title('John Li 2023-11-13')
 
 # Scatter diagram with a linear regression line
 plt.figure()
@@ -50,6 +50,6 @@ plt.ylabel('Memory Available GB')
 plt.plot(x, y, 'bo')
 l = [slope * i + intercept for i in x]
 plt.plot(x, l, 'r', lw=2)
-plt.title('Iotu 2017-04-28')
+plt.title('John Li 2023-11-13')
 
 plt.show()

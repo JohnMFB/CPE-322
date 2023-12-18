@@ -13,6 +13,6 @@ plt.plot(y, predicted, 'ro')
 plt.plot([y.min(), y.max()], [y.min(), y.max()], 'b-', lw=2)
 plt.xlabel('Memory Available GB')
 plt.ylabel('Predicted')
-plt.title('Iotu 2017-12-17')
+plt.title('John Li 2023-11-13')
 
 plt.show()
